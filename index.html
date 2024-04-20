@@ -183,13 +183,12 @@
     </div>
 
     <div class="tab" id="myTab">
-      <video autoplay loop muted>
+      <video id="myVideo" autoplay loop muted onmouseover="slowDown()" onmouseout="speedUp()">
         <source src="world-map-loop.mp4" type="video/mp4">
         <!-- Include additional <source> elements for other video formats -->
         Your browser does not support the video tag.
       </video>
     </div>
-
 
 
     <div class="tab">
@@ -450,5 +449,18 @@
       </div>
     </div>
   <script src="script.js"></script>
+  <script>
+    var video = document.getElementById("myVideo");
+  
+    function slowDown() {
+      video.playbackRate = 0.5; // Set the playback rate to 0.5x speed when hovering
+      video.play(); // Start playing the video
+    }
+  
+    function speedUp() {
+      video.playbackRate = 2; // Set the playback rate back to 2x speed when not hovering
+      video.play(); // Start playing the video
+    }
+  </script>
 </body>
 </html>
