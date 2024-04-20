@@ -169,7 +169,7 @@
     left: 0;
     margin: 0; /* Ensure no margins */
     padding: 0; /* Ensure no padding */
-    filter: hue-rotate(90deg);
+    filter: sepia(100%);
 }
   .tab.no-padding {
     padding: 20px 0px;
