@@ -159,7 +159,7 @@
   }
   
   .tabtab {
-    background-color: #1b1b1b;
+    background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 26, 255));
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -173,7 +173,31 @@
 
    
   .tabloc {
-    background-color: rgb(0, 60, 255);
+    background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 60, 255));
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .tabloc2 {
+    background-color:#f7f7f7 ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .tabloc3 {
+    background-image: linear-gradient(rgb(0, 60, 255), rgb(0, 0, 255));
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -185,8 +209,8 @@
   }
   
   .lightblue {
-    border: 1px dashed rgb(207, 237, 255);
-    background-color: rgb(0, 60, 255);
+    border: 1px dashed rgb(0, 0, 0);
+    background-image:#f7f7f7;
   }
   
   .tab video {
@@ -294,9 +318,9 @@
   }
   
   .tab.blue {
-    background-color: blue;
+    background-image: linear-gradient(rgb(72, 72, 190), rgb(14, 17, 17));
     color: white;
-  }
+}
   
   .top-tab {
     background-color: #fafafa;
@@ -370,7 +394,7 @@
   .blink {
     width: 10px;
     height: 10px;
-    background-color: rgb(109, 255, 5);
+    background-color: rgb(0, 255, 13);
     border-radius: 100%;
     animation: blink 3s linear infinite;
   }
@@ -553,7 +577,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     padding: 2px 8px;
     border-radius: 100px;
   }
