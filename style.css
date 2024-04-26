@@ -156,6 +156,7 @@
     border-radius: 8px;
     overflow: hidden;
     position: relative;
+    justify-content: space-around;
   }
   
   .tabtab {
@@ -271,6 +272,9 @@
     max-width: 400px;
   }
   
+  .image-container {
+    margin-bottom: 10px;
+  }
   
   .feature.last {
     margin-bottom: 32px;
