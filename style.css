@@ -174,7 +174,7 @@
 
    
   .tabloc {
-    background-image: linear-gradient(rgb(0, 0, 255), rgb(0, 89, 255));
+    background-image: linear-gradient(rgb(0, 0, 255), rgb(3, 0, 192));
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -198,7 +198,7 @@
   }
 
   .tabloc3 {
-    background-image: linear-gradient(rgb(0, 89, 255), rgb(0, 26, 255));
+    background-image: linear-gradient(rgb(3, 0, 194), rgb(0, 26, 255));
     display: flex;
     flex-direction: column;
     gap: 20px;
